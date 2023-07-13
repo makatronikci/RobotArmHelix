@@ -215,45 +215,45 @@ namespace RobotArmHelix
                 joints[1].rotAxisX = 0;
                 joints[1].rotAxisY = 1;
                 joints[1].rotAxisZ = 0;
-                joints[1].rotPointX = 348;
-                joints[1].rotPointY = -243;
-                joints[1].rotPointZ = 775;
+                joints[1].rotPointX = 75;
+                joints[1].rotPointY = 0;
+                joints[1].rotPointZ = 450;
 
                 joints[2].angleMin = -90;
                 joints[2].angleMax = 90;
                 joints[2].rotAxisX = 0;
                 joints[2].rotAxisY = 1;
                 joints[2].rotAxisZ = 0;
-                joints[2].rotPointX = 347;
-                joints[2].rotPointY = -376;
-                joints[2].rotPointZ = 1923;
+                joints[2].rotPointX = 75;
+                joints[2].rotPointY = 0;
+                joints[2].rotPointZ = 1090;
 
                 joints[3].angleMin = -180;
                 joints[3].angleMax = 180;
                 joints[3].rotAxisX = 1;
                 joints[3].rotAxisY = 0;
                 joints[3].rotAxisZ = 0;
-                joints[3].rotPointX = 60;
+                joints[3].rotPointX = 75;
                 joints[3].rotPointY = 0;
-                joints[3].rotPointZ = 2125;
+                joints[3].rotPointZ = 1285;
 
                 joints[4].angleMin = -115;
                 joints[4].angleMax = 115;
                 joints[4].rotAxisX = 0;
                 joints[4].rotAxisY = 1;
                 joints[4].rotAxisZ = 0;
-                joints[4].rotPointX = 1815;
+                joints[4].rotPointX = 775;
                 joints[4].rotPointY = 0;
-                joints[4].rotPointZ = 2125;
+                joints[4].rotPointZ = 1285;
 
                 joints[5].angleMin = -180;
                 joints[5].angleMax = 180;
                 joints[5].rotAxisX = 1;
                 joints[5].rotAxisY = 0;
                 joints[5].rotAxisZ = 0;
-                joints[5].rotPointX = 2008;
+                joints[5].rotPointX = 850;
                 joints[5].rotPointY = 0;
-                joints[5].rotPointZ = 2125;
+                joints[5].rotPointZ = 1285;
 
 #else
                 changeModelColor(joints[6], Colors.Red);
